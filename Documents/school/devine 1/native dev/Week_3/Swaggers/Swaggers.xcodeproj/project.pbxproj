@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52EA95301A9F6A87009D442E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EA952F1A9F6A87009D442E /* AppDelegate.swift */; };
+		52EA95321A9F6A87009D442E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EA95311A9F6A87009D442E /* ViewController.swift */; };
+		52EA95341A9F6A87009D442E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EA95331A9F6A87009D442E /* Images.xcassets */; };
+		52EA95371A9F6A87009D442E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52EA95351A9F6A87009D442E /* LaunchScreen.xib */; };
+		52EA95431A9F6A88009D442E /* SwaggersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EA95421A9F6A88009D442E /* SwaggersTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52EA953D1A9F6A88009D442E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52EA95221A9F6A87009D442E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52EA95291A9F6A87009D442E;
+			remoteInfo = Swaggers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52EA952A1A9F6A87009D442E /* Swaggers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swaggers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EA952E1A9F6A87009D442E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EA952F1A9F6A87009D442E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52EA95311A9F6A87009D442E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52EA95331A9F6A87009D442E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52EA95361A9F6A87009D442E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52EA953C1A9F6A88009D442E /* SwaggersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwaggersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EA95411A9F6A88009D442E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EA95421A9F6A88009D442E /* SwaggersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwaggersTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52EA95271A9F6A87009D442E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EA95391A9F6A88009D442E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52EA95211A9F6A87009D442E = {
+			isa = PBXGroup;
+			children = (
+				52EA952C1A9F6A87009D442E /* Swaggers */,
+				52EA953F1A9F6A88009D442E /* SwaggersTests */,
+				52EA952B1A9F6A87009D442E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52EA952B1A9F6A87009D442E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52EA952A1A9F6A87009D442E /* Swaggers.app */,
+				52EA953C1A9F6A88009D442E /* SwaggersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52EA952C1A9F6A87009D442E /* Swaggers */ = {
+			isa = PBXGroup;
+			children = (
+				52EA952F1A9F6A87009D442E /* AppDelegate.swift */,
+				52EA95311A9F6A87009D442E /* ViewController.swift */,
+				52EA95331A9F6A87009D442E /* Images.xcassets */,
+				52EA95351A9F6A87009D442E /* LaunchScreen.xib */,
+				52EA952D1A9F6A87009D442E /* Supporting Files */,
+			);
+			path = Swaggers;
+			sourceTree = "<group>";
+		};
+		52EA952D1A9F6A87009D442E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52EA952E1A9F6A87009D442E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52EA953F1A9F6A88009D442E /* SwaggersTests */ = {
+			isa = PBXGroup;
+			children = (
+				52EA95421A9F6A88009D442E /* SwaggersTests.swift */,
+				52EA95401A9F6A88009D442E /* Supporting Files */,
+			);
+			path = SwaggersTests;
+			sourceTree = "<group>";
+		};
+		52EA95401A9F6A88009D442E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52EA95411A9F6A88009D442E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52EA95291A9F6A87009D442E /* Swaggers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EA95461A9F6A88009D442E /* Build configuration list for PBXNativeTarget "Swaggers" */;
+			buildPhases = (
+				52EA95261A9F6A87009D442E /* Sources */,
+				52EA95271A9F6A87009D442E /* Frameworks */,
+				52EA95281A9F6A87009D442E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swaggers;
+			productName = Swaggers;
+			productReference = 52EA952A1A9F6A87009D442E /* Swaggers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52EA953B1A9F6A88009D442E /* SwaggersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EA95491A9F6A88009D442E /* Build configuration list for PBXNativeTarget "SwaggersTests" */;
+			buildPhases = (
+				52EA95381A9F6A88009D442E /* Sources */,
+				52EA95391A9F6A88009D442E /* Frameworks */,
+				52EA953A1A9F6A88009D442E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52EA953E1A9F6A88009D442E /* PBXTargetDependency */,
+			);
+			name = SwaggersTests;
+			productName = SwaggersTests;
+			productReference = 52EA953C1A9F6A88009D442E /* SwaggersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52EA95221A9F6A87009D442E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "arne deprez";
+				TargetAttributes = {
+					52EA95291A9F6A87009D442E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					52EA953B1A9F6A88009D442E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 52EA95291A9F6A87009D442E;
+					};
+				};
+			};
+			buildConfigurationList = 52EA95251A9F6A87009D442E /* Build configuration list for PBXProject "Swaggers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52EA95211A9F6A87009D442E;
+			productRefGroup = 52EA952B1A9F6A87009D442E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52EA95291A9F6A87009D442E /* Swaggers */,
+				52EA953B1A9F6A88009D442E /* SwaggersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52EA95281A9F6A87009D442E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EA95371A9F6A87009D442E /* LaunchScreen.xib in Resources */,
+				52EA95341A9F6A87009D442E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EA953A1A9F6A88009D442E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52EA95261A9F6A87009D442E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EA95321A9F6A87009D442E /* ViewController.swift in Sources */,
+				52EA95301A9F6A87009D442E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EA95381A9F6A88009D442E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EA95431A9F6A88009D442E /* SwaggersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52EA953E1A9F6A88009D442E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52EA95291A9F6A87009D442E /* Swaggers */;
+			targetProxy = 52EA953D1A9F6A88009D442E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52EA95351A9F6A87009D442E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52EA95361A9F6A87009D442E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52EA95441A9F6A88009D442E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52EA95451A9F6A88009D442E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52EA95471A9F6A88009D442E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Swaggers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52EA95481A9F6A88009D442E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Swaggers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52EA954A1A9F6A88009D442E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwaggersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swaggers.app/Swaggers";
+			};
+			name = Debug;
+		};
+		52EA954B1A9F6A88009D442E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwaggersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swaggers.app/Swaggers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52EA95251A9F6A87009D442E /* Build configuration list for PBXProject "Swaggers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EA95441A9F6A88009D442E /* Debug */,
+				52EA95451A9F6A88009D442E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52EA95461A9F6A88009D442E /* Build configuration list for PBXNativeTarget "Swaggers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EA95471A9F6A88009D442E /* Debug */,
+				52EA95481A9F6A88009D442E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52EA95491A9F6A88009D442E /* Build configuration list for PBXNativeTarget "SwaggersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EA954A1A9F6A88009D442E /* Debug */,
+				52EA954B1A9F6A88009D442E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52EA95221A9F6A87009D442E /* Project object */;
+}
